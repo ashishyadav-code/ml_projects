@@ -31,3 +31,9 @@ logs/
 
 # Large temporary files
 *.tmp
+
+# Installers & binaries (should never be committed)
+*.exe
+*.msi
+*.winmd
+*.pkl
