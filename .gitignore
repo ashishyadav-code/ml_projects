@@ -37,3 +37,8 @@ logs/
 *.msi
 *.winmd
 *.pkl
+
+# Heavy Datasets & Artifacts
+**/Data/Raw/*.csv
+**/Data/Processed/raw_merged.csv
+**/Artifacts/*.pkl

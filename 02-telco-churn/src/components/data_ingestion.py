@@ -41,10 +41,10 @@ def save_data(train_data,test_data,output_dir:str):
     print(f"Train data saved at: {train_path}")
     print(f"Test data saved at: {test_path}")
 
-    return train_path,test_path
+
 
 if __name__=="__main__":
-    file_path = "Data/Raw/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+    file_path = f"C:\\Users\\ashis\\OneDrive\\Desktop\\Ml Projects\\02-telco-churn\\Data\\Raw\\WA_Fn-UseC_-Telco-Customer-Churn.csv"
     output_dir = "Data/Processed"
 
     df = load_data(file_path)
